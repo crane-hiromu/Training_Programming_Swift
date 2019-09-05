@@ -15,7 +15,6 @@ func takeOutMaxCountOfLinedUpZero(from indexes: Int) -> Int {
             counter += 1
             max = (max < counter) ? counter : max
         } else {
-            max = (max < counter) ? counter : max
             counter = 0
         }
     }
