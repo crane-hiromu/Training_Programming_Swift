@@ -37,5 +37,5 @@ func hasPair(in data: [Int]) -> Bool {
     } != nil
 }
 
-hasPair(in: [1,2,3,9])
-hasPair(in: [1,2,4,4])
+hasPair(in: [1,2,3,9]) // false
+hasPair(in: [1,2,4,4]) // true
