@@ -48,5 +48,29 @@ func isValid(s: String) -> Bool {
 
 // Answer 2
 
+func canCloseCharacters(texts: String) -> Bool {
+    guard !texts.isEmpty else { return false }
+    
+    var strArray: [String] = texts.map { "\($0)" }
+    var startArray: [String] = []
+    
+    for text in strArray {
+        if text == "(" || text == "{" || text == "[" {
+            startArray.append(text)
+        } else if text == ")" && startArray.removeLast() != "(" {
+            return false
+        } else if text == "}" && startArray.removeLast() != "{" {
+            return false
+        } else if text == "]" && startArray.removeLast() != "[" {
+            return false
+        }
+    }
+    
+    return startArray.isEmpty
+}
 
-
+canCloseCharacters(texts: "()") // true
+canCloseCharacters(texts: "()[]{}") // true
+canCloseCharacters(texts: "(]") // false
+canCloseCharacters(texts: "([)]") // false
+canCloseCharacters(texts: "{[]}") // true
