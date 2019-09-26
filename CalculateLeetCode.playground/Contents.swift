@@ -129,3 +129,36 @@ kth.add(5)
 kth.add(10)
 kth.add(9)
 kth.add(4)
+
+
+// https://leetcode.com/problems/top-k-frequent-elements/
+// Given a non-empty array of integers, return the k most frequent elements.
+
+// Example 1: Input: nums = [1,1,1,2,2,3], k = 2 / Output: [1,2]
+// Example 2: Input: nums = [1], k = 1 / Output: [1]
+// Note:
+// You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
+// Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+
+func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
+    var combinations = [Int: Int]()
+
+    for n in nums {
+        if let val = combinations[n] {
+            combinations[n] = val + 1
+        } else {
+            combinations[n] = 1
+        }
+    }
+    
+    let highToLow = combinations.sorted(by: { $1.value < $0.value })
+    var result = [Int]()
+    
+    for m in 0..<k {
+        result.append(highToLow[m].key)
+    }
+    return result
+}
+
+topKFrequent([1,1,1,2,2,3], 2)
+topKFrequent([1], 1)
