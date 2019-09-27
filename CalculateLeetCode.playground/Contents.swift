@@ -162,3 +162,35 @@ func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
 
 topKFrequent([1,1,1,2,2,3], 2)
 topKFrequent([1], 1)
+
+
+
+// https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+
+func kSmallestPairs(_ nums1: [Int], _ nums2: [Int], _ k: Int) -> [[Int]] {
+    var combinations: [[Int]] = []
+    
+    for n in nums1 {
+        for m in nums2 {
+            combinations.append([n, m, n+m])
+        }
+    }
+    
+    var result: [[Int]] = combinations.sorted(by: {
+        $0[2] < $1[2]
+    })
+    
+    var end = k
+    if combinations.count < k {
+        end = combinations.count
+    }
+    
+    var answer: [[Int]] = []
+    
+    for l in 0..<end {
+        answer.append([result[l][0], result[l][1]])
+    }
+    return answer
+}
+
+kSmallestPairs([1,7,11], [2,4,6], 3)
