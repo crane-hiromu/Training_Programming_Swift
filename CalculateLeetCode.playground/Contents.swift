@@ -176,7 +176,7 @@ func kSmallestPairs(_ nums1: [Int], _ nums2: [Int], _ k: Int) -> [[Int]] {
         }
     }
     
-    var result: [[Int]] = combinations.sorted(by: {
+    let result: [[Int]] = combinations.sorted(by: {
         $0[2] < $1[2]
     })
     
@@ -194,3 +194,33 @@ func kSmallestPairs(_ nums1: [Int], _ nums2: [Int], _ k: Int) -> [[Int]] {
 }
 
 kSmallestPairs([1,7,11], [2,4,6], 3)
+
+
+// https://leetcode.com/problems/two-sum/submissions/
+
+// first answer
+func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    for n in 0..<nums.count {
+        for m in n+1..<nums.count {
+            if nums[n] + nums[m] == target {
+                return [n, m]
+            }
+        }
+    }
+    return []
+}
+
+// second answer
+func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+    var keyValue = [Int: Int]()
+    
+    for (i, num) in nums.enumerated() {
+        if let index = keyValue[target-num] {
+            return [i, index]
+        }
+        keyValue[num] = i
+    }
+    return []
+}
+
+//
