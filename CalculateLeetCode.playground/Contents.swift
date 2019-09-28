@@ -1,4 +1,6 @@
 
+import Foundation
+
 /* practice leetcode */
 
 // https://leetcode.com/problems/valid-parentheses/
@@ -10,7 +12,6 @@
 // Example 3: Input: "(]", Output: false
 // Example 4: Input: "([)]", Output: false
 // Example 5: Input: "{[]}", Output: true
-
 
 // Answer 1
 
@@ -196,7 +197,7 @@ func kSmallestPairs(_ nums1: [Int], _ nums2: [Int], _ k: Int) -> [[Int]] {
 kSmallestPairs([1,7,11], [2,4,6], 3)
 
 
-// https://leetcode.com/problems/two-sum/submissions/
+// https://leetcode.com/problems/two-sum/
 
 // first answer
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -223,4 +224,97 @@ func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
     return []
 }
 
-//
+
+
+// https://leetcode.com/problems/intersection-of-two-arrays
+
+// answer1 one liner
+func intersection(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+    return Array(Set(nums1.filter(nums2.contains)))
+}
+
+// answer2 litlte memory
+func intersection2(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+    var result = [Int]()
+    
+    for n1 in nums1 {
+        if nums2.contains(n1), !result.contains(n1) {
+            result.append(n1)
+        }
+    }
+    
+    return result
+}
+
+// other answer
+func intersection3(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+    return Set(nums1).filter(Set(nums2).contains)
+}
+
+func intersection4(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+    return Array(Set(nums1).intersection(Set(nums2)))
+}
+
+
+// https://leetcode.com/problems/unique-email-addresses/
+
+
+
+
+// https://leetcode.com/problems/unique-email-addresses/submissions/
+
+// components(separatedBy:)はStringを返す分、split(separator:)より遅い
+
+func numUniqueEmails(_ emails: [String]) -> Int {
+    var remakeEmails = [String]()
+    
+    for email in emails {
+        var parts = email.split(separator: "@")
+        parts[0] = parts[0].split(separator: "+")[0]
+        parts[0] = parts[0].split(separator: ".").reduce("") { $0+$1 }
+        
+        let new: String = parts[0] + "@" + parts[1]
+        
+        if !remakeEmails.contains(new) {
+            remakeEmails.append((new))
+        }
+    }
+    return remakeEmails.count
+}
+
+
+// https://leetcode.com/problems/first-unique-character-in-a-string
+
+// 1 タイムアウトになってしまった
+func firstUniqChar(_ s: String) -> Int {
+    let arrayStrs = s.map { "\($0)" }
+    
+    for (index, str) in arrayStrs.enumerated() {
+        let count = s.components(separatedBy: str).count
+        
+        if count == 2 {
+            return index
+        }
+    }
+    return -1
+}
+
+// 2
+func firstUniqChar(_ s: String) -> Int {
+    var dict = [Character: Int]()
+    
+    for str in s {
+        if dict[str] == nil {
+            dict[str] = 1
+        } else {
+            dict[str]! += 1
+        }
+    }
+    
+    for (index, dic) in s.enumerated() {
+        if dict[dic] == 1 {
+            return index
+        }
+    }
+    return -1
+}
