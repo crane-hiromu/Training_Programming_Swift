@@ -300,7 +300,7 @@ func firstUniqChar(_ s: String) -> Int {
 }
 
 // 2
-func firstUniqChar(_ s: String) -> Int {
+func firstUniqChar2(_ s: String) -> Int {
     var dict = [Character: Int]()
     
     for str in s {
@@ -317,4 +317,81 @@ func firstUniqChar(_ s: String) -> Int {
         }
     }
     return -1
+}
+
+
+// https://leetcode.com/problems/maximum-depth-of-binary-tree
+
+class TreeNode {
+     public var val: Int
+     public var left: TreeNode?
+     public var right: TreeNode?
+     public init(_ val: Int) {
+         self.val = val
+             self.left = nil
+             self.right = nil
+     }
+ }
+
+func maxDepth(_ root: TreeNode?) -> Int {
+    /// 階層があるか確認
+    /// ある場合は左と右の階層をそれぞれ確認し、再帰関数で子供も探索していく
+    /// max関数で値が大きい方がかう深い階層になる
+    guard let r = root else { return 0 }
+    return max(maxDepth(r.left), maxDepth(r.right)) + 1 // 階層を追うごとに1増やしていく
+}
+
+/// わかりやすい例
+func maxDepthEx(_ root: TreeNode?) -> Int {
+    
+    var sumLeft = 0
+    var sumRight = 0
+    
+    if let root = root {
+        
+        sumLeft = 1
+        sumRight = 1
+        
+        if let left = root.left {
+            sumLeft = 1 + maxDepth(left)
+        }
+        if let right = root.right {
+            sumRight = 1 + maxDepth(right)
+        }
+    }
+    
+    return max(sumLeft, sumRight)
+}
+
+
+/// https://leetcode.com/problems/minimum-depth-of-binary-tree
+
+func minDepth(_ root: TreeNode?) -> Int {
+    guard let r = root else { return 0 }
+    
+    let left = minDepth(r.left)
+    let right = minDepth(r.right)
+    let minIndex = min(left, right)
+    
+    if minIndex == 0 {
+        return max(left, right) + 1
+    } else {
+        return minIndex + 1
+    }
+}
+
+// ちょっとだけ速い回答
+func minDepth2(_ root: TreeNode?) -> Int {
+    guard let root = root else { return 0 }
+    
+    let left = minDepth(root.left)
+    let right = minDepth(root.right)
+    
+    if left == 0 {
+        return right + 1
+    } else if right == 0 {
+        return left + 1
+    } else {
+        return min(left, right) + 1
+    }
 }
