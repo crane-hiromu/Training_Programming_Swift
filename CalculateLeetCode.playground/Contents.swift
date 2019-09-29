@@ -438,3 +438,86 @@ func hasPathSum(_ root: TreeNode?, _ sum: Int) -> Bool {
     
     return (hasPathSum(r.left, diff) || hasPathSum(r.right, diff))
 }
+
+
+/// https://leetcode.com/problems/validate-binary-search-tree
+
+/// 子ノードを取り出すテンプレートコード
+
+func node(_ root: TreeNode?) -> [TreeNode] {
+    guard let r = root else { return [] }
+    
+    var nodes = [TreeNode]()
+    if let left = r.left {
+        nodes.append(left)
+        for node in node(left) {
+            nodes.append(node)
+        }
+    }
+    if let right = r.right {
+        nodes.append(right)
+        for node in node(right) {
+            nodes.append(node)
+        }
+    }
+    return nodes
+}
+
+// これではダメらしい
+// [3,null,30,10,null,null,15,null,45]
+func isValidBST(_ root: TreeNode?) -> Bool {
+    guard let r = root else { return true }
+    
+    /// validation
+    if r.left == nil, r.right == nil {
+        return true
+    }
+    
+    /// left
+    if let left = r.left {
+        guard left.val < r.val else { return false }
+        
+        for lNode in node(left) {
+            print("-lNode", lNode.val)
+            if r.val <= lNode.val {
+                return false
+            }
+        }
+    }
+    
+    /// right
+    if let right = r.right {
+        guard r.val < right.val else { return false }
+        
+        for rNode in node(right) {
+            if rNode.val <= r.val, rNode.val <= right.val {
+                return false
+            }
+        }
+    }
+    
+    return true
+}
+
+// 正しいもの
+func isValidBST_r(_ root: TreeNode?) -> Bool {
+    return isBST(root, min: nil, max: nil)
+}
+
+func isBST(_ node: TreeNode?, min: Int?, max: Int?) -> Bool {
+    guard let node = node else {return true}
+    
+    if let min = min {
+        if node.val <= min {
+            return false
+        }
+    }
+    
+    if let max = max {
+        if node.val >= max {
+            return false
+        }
+    }
+    
+    return isBST(node.left, min: min, max: node.val) && isBST(node.right, min: node.val, max: max)
+}
