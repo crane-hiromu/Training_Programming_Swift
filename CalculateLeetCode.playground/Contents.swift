@@ -521,3 +521,105 @@ func isBST(_ node: TreeNode?, min: Int?, max: Int?) -> Bool {
     
     return isBST(node.left, min: min, max: node.val) && isBST(node.right, min: node.val, max: max)
 }
+
+
+// https://leetcode.com/problems/maximum-subarray
+
+func maxSubArray(_ nums: [Int]) -> Int {
+    if nums.isEmpty { return 0 }
+    if nums.count == 1 { return nums[0] }
+    
+    var sum = nums[0]
+    var result = nums[0]
+    
+    for i in 1..<nums.count {
+        sum += nums[i]
+        
+        // 大きい場合は初期値をリセット
+        if sum < nums[i] {
+            sum = nums[i]
+        }
+        if result < sum {
+            result = sum
+        }
+    }
+    return result
+}
+
+
+// https://leetcode.com/problems/house-robber
+
+// 偶奇で合計のでかいのをかえす。これだと隣り合うものしか判定できない。
+func rob(_ nums: [Int]) -> Int {
+    var evenNums = [Int]()
+    var oddNums = [Int]()
+    
+    for (index, num) in nums.enumerated() {
+        if index % 2 == 0 {
+            evenNums.append(num)
+        } else {
+            oddNums.append(num)
+        }
+    }
+    
+    return max(evenNums.reduce(0){ $0 + $1 },
+               oddNums.reduce(0){ $0 + $1 })
+}
+
+
+// https://leetcode.com/problems/search-insert-position
+
+// 正解だがバイナリーサーチにならないので違うのを考える。(index(of:)はswiftで用意されているものなので）
+func searchInsert(_ nums: [Int], _ target: Int) -> Int {
+    if let index = nums.index(of: target) {
+        return index
+    }
+    
+    var endIndex = 0
+    for (index, num) in nums.enumerated() {
+        if target < num {
+            return index
+        }
+        endIndex = index
+    }
+    return endIndex + 1
+}
+
+
+// https://leetcode.com/problems/powx-n
+
+// タイムアウトになる
+func myPow(_ x: Double, _ n: Int) -> Double {
+    if n == 0 { return 1 }
+    
+    var currentX = x
+    
+    if 0 < n {
+        for _ in 1..<n {
+            currentX *= x
+        }
+        return currentX
+        
+    } else {
+        for _ in 1..<Swift.abs(n) {
+            currentX *= x
+        }
+        return 1/currentX
+    }
+}
+
+// swiftの関数を用いたもの。再帰関数になっていないので本来の意図としては正しくない可能性が高い。下の１行で問題ない。
+func myPow2(_ x: Double, _ n: Int) -> Double {
+    if n == 0 { return 1 }
+    
+    if 0 < n {
+        return pow(x, Double(n))
+        
+    } else {
+        return pow(1/x, Swift.abs(Double(n)))
+    }
+}
+
+func myPow3(_ x: Double, _ n: Int) -> Double {
+    return pow(x, Double(n))
+}
