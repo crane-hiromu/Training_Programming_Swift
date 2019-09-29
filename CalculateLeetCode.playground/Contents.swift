@@ -623,3 +623,67 @@ func myPow2(_ x: Double, _ n: Int) -> Double {
 func myPow3(_ x: Double, _ n: Int) -> Double {
     return pow(x, Double(n))
 }
+
+
+// https://leetcode.com/problems/move-zeroes
+
+
+/// 自分の回答
+func moveZeroes(_ nums: inout [Int]) {
+    var zeroIndexes = [Int]()
+    
+    for (index, num) in nums.enumerated() {
+        if num == 0 {
+            zeroIndexes.append(index)
+        }
+    }
+    
+    var counter = 0
+    for index in zeroIndexes {
+        nums.remove(at: index - counter)
+        counter += 1
+        nums.append(0)
+    }
+}
+
+/// swiftらしい回答
+func moveZeroes2(_ nums: inout [Int]) {
+    let count = nums.count
+    nums = nums.filter { $0 != 0 }
+    
+    for _ in nums.count..<count {
+        nums.append(0)
+    }
+}
+
+
+// https://leetcode.com/problems/remove-duplicates-from-sorted-list
+
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    public init(_ val: Int) {
+        self.val = val
+        self.next = nil
+    }
+}
+
+func deleteDuplicates(_ head: ListNode?) -> ListNode? {
+    guard let h = head else { return nil }
+    
+    var curt = h
+    
+    // 次がなくなるまで実行
+    while curt.next != nil {
+        // 現在の値と次が同じ場合。次をスキップする
+        if let next = curt.next {
+            if next.val == curt.val {
+                curt.next = next.next
+            } else {
+                curt = next
+            }
+        }
+    }
+    
+    return head
+}
