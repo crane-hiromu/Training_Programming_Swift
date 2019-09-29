@@ -395,3 +395,46 @@ func minDepth2(_ root: TreeNode?) -> Int {
         return min(left, right) + 1
     }
 }
+
+
+// https://leetcode.com/problems/merge-two-binary-trees
+
+func mergeTrees(_ t1: TreeNode?, _ t2: TreeNode?) -> TreeNode? {
+    if t1 == nil, t2 == nil { return nil }
+    
+    let node = TreeNode((t1?.val ?? 0) + (t2?.val ?? 0))
+    node.left = mergeTrees(t1?.left, t2?.left)
+    node.right = mergeTrees(t1?.right, t2?.right)
+    return node
+}
+
+
+// https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+
+func sortedArrayToBST(_ nums: [Int]) -> TreeNode? {
+    guard !nums.isEmpty else { return nil }
+    
+    let center: Int = nums.count/2
+    let node = TreeNode(nums[center])
+    node.left = sortedArrayToBST(Array(nums[0..<center]))
+    node.right = sortedArrayToBST(Array(nums[center+1..<nums.count]))
+    return node
+}
+
+
+// https://leetcode.com/problems/path-sum
+
+func hasPathSum(_ root: TreeNode?, _ sum: Int) -> Bool {
+    guard let r = root else { return false }
+    
+    let diff: Int = sum - r.val
+    
+    guard r.left != nil || r.right != nil else { return diff == 0 }
+    
+    // guard ではなく if でm以下のように可能だが、&&で両方評価する分え、上の方が速いっぽい？
+//    if r.left == nil && r.right == nil {
+//        return diff == 0
+//    }
+    
+    return (hasPathSum(r.left, diff) || hasPathSum(r.right, diff))
+}
