@@ -478,7 +478,6 @@ func isValidBST(_ root: TreeNode?) -> Bool {
         guard left.val < r.val else { return false }
         
         for lNode in node(left) {
-            print("-lNode", lNode.val)
             if r.val <= lNode.val {
                 return false
             }
