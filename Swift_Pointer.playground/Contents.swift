@@ -90,17 +90,17 @@ func sortInt(_ items: [Int]) -> [Int] {
 
 func sortArray() {
     let array = Array(1...100)
-
+    
     let first = array
     let second = array
-
+    
     let startTime1 = CFAbsoluteTimeGetCurrent()
     first.sorted()
     let timeElapsed1 = CFAbsoluteTimeGetCurrent() - startTime1
     print("1: \(timeElapsed1) seconds")
     print(first)
-
-
+    
+    
     let startTime2 = CFAbsoluteTimeGetCurrent()
     sortInt(second)
     let timeElapsed2 = CFAbsoluteTimeGetCurrent() - startTime2
@@ -125,7 +125,7 @@ func execSwapByPointer() {
     var a: Int = 10
     var b: Int = 20
     swapByPointer(x: &a, y: &b)
-
+    
     let et = CFAbsoluteTimeGetCurrent() - st
     print("\(et) seconds")
 }
@@ -142,7 +142,7 @@ func execSwapIntByPointer() {
     var c: Int = 10
     var d: Int = 20
     swapIntByPointer(x: &c, y: &d)
-
+    
     let et = CFAbsoluteTimeGetCurrent() - st
     print("\(et) seconds")
 }
@@ -159,7 +159,7 @@ func execSwapByInout() {
     var e: Int = 10
     var f: Int = 20
     swapByInout(x: &e, y: &f)
-
+    
     let et = CFAbsoluteTimeGetCurrent() - st
     print("\(et) seconds")
 }
@@ -176,7 +176,7 @@ func execSwapIntByInout() {
     var g: Int = 10
     var h: Int = 20
     swapIntByInout(x: &g, y: &h)
-
+    
     let et = CFAbsoluteTimeGetCurrent() - st
     print("\(et) seconds")
 }
@@ -196,7 +196,7 @@ func execSwapIntByInout() {
 
 func runLoopNumbers() {
     let start = Date()
-        
+    
     var sum = 0
     for i in (0...1000) {
         sum += i
@@ -207,25 +207,108 @@ func runLoopNumbers() {
 
 func runLoopPointerNumbers() {
     let start = Date()
-            
+    
     var sum = 0
     let sumPointer = UnsafeMutablePointer<Int>(&sum)
     
     for i in (0...1000) {
         sumPointer.pointee += i
     }
-
+    
     print(Date().timeIntervalSince(start))
 }
 
 func execLoops() {
-    for i in (0...10) {
+    for _ in (0...10) {
         runLoopNumbers()
     }
-    for i in (0...10) {
+    for _ in (0...10) {
         runLoopPointerNumbers()
     }
 }
 
 execLoops()
+
+
+
+
+/// https://leetcode.com/problems/two-sum/
+
+/// question
+/// var nums = [2, 7, 11, 15], target = 9
+/// print(twoSum(nums, target))
+
+//normal
+//24ms
+func twoSum0(_ nums: [Int], _ target: Int) -> [Int] {
+    for i in 0 ..< nums.count {
+        let j = i+1
+        
+        while j < nums.count {
+            if nums[i] + nums[j] == target {
+                return [i, j]
+            }
+        }
+    }
+    return []
+}
+
+
+// Quick
+// 8ms
+func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
+    var keyValue = [Int: Int]()
+    
+    for (i, num) in nums.enumerated() {
+        if let index = keyValue[target-num] {
+            return [i, index]
+        }
+        keyValue[num] = i
+    }
+    return []
+}
+
+
+// pointer
+// 8ms
+func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+    var nNums = nums
+    let nPointer = UnsafeMutablePointer<Int>(&nNums)
+    
+    for i in 0 ..< nums.count {
+        var j = i+1
+        
+        while j < nums.count {
+            if nPointer[i] + nPointer[j] == target {
+                return [i, j]
+            }
+            j += 1
+        }
+    }
+    return []
+}
+
+// pointer
+// 16ms
+func twoSum3(_ nums: [Int], _ target: Int) -> [Int] {
+    var nNums = nums
+    var nPointer = UnsafeMutablePointer<Int>(&nNums)
+    
+    for i in 0 ..< nums.count {
+        for j in i+1 ..< nums.count {
+            let mPointer = nPointer + j - i
+            
+            if nPointer.pointee + mPointer.pointee == target {
+                return [i, j]
+            }
+        }
+        nPointer += 1
+    }
+    return []
+}
+
+
+var nums = [3, 2, 4], target = 6
+print(twoSum0(nums, target))
+
 
