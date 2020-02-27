@@ -15,6 +15,8 @@ Repository for learning Swift competitive programming
 | 5      |  [WIP]()  | [leetcode_]()  |
 | 6      |  [WIP]()  | [leetcode_]()  |
 | 7      |  [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [leetcode_7](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_7.playground/Contents.swift)  |
+| 8     |  [WIP]()  | [leetcode_]()  |
+| 9      |  [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | [leetcode_9](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_9.playground/Contents.swift)  |
 
 
 to be continue
