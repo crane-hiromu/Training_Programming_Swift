@@ -1,6 +1,6 @@
 import UIKit
 
-// wip
+// wip "  -0012a42"
 
 func myAtoi(_ str: String) -> Int {
     let s = str.trimmingCharacters(in: .whitespacesAndNewlines).components(separatedBy: " ")
