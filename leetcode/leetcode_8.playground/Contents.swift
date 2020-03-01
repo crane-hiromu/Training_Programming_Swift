@@ -10,13 +10,105 @@ import UIKit
  - ".1"                   expect 0
  - "+1"                   expect 1
  - ""                     expect 0
- - "-91283472332"         expect -2147483648(=−2^31)
- - "20000000000000000000" expect 2147483647
  - "1a"                   expect 1
  - "123-"                 expect 123
+ - "-91283472332"         expect -2147483648(=−2^31)
+ - "20000000000000000000" expect 2147483647
+ - "    0000000000000   " expect 0
  */
 
-func myAtoi(_ str: String) -> Int {
+
+// answer
+func myAtoi0(_ str: String) -> Int {
+    let tri = str.trimmingCharacters(in: .whitespacesAndNewlines)
+    
+    // １文字の場合は早期return
+    guard Int(tri) == nil else { return expect(tri, str.contains("-") ? -1 : 1, false) }
+    
+    var sign = 1
+    var strs = ""
+    
+    // 最初に出現する数字を抽出する
+    for (i, st) in tri.enumerated() {
+        let s = String(st)
+        
+        // 1文字目のみ判定
+        if i == 0 {
+            if s == "+" {
+                sign = 1
+            } else if s == "-" {
+                sign = -1
+            } else {
+                guard Int(s) != nil else { break } // 任意の文字列の場合、即終了
+                strs += s
+            }
+        } else {
+            guard Int(s) != nil else { break } // 文字列に遭遇した段階で終了
+            strs += s
+            
+        }
+    }
+
+    return expect(strs, sign, true)
+}
+
+func expect(_ str: String, _ sign: Int, _ flag: Bool) -> Int { // sign: 1=ポジティブ, -1=ネガティブ、　flag: 早期returnかどうか
+    let istr = Int(str)
+
+    // 9ケタまでなければ、32bit以内なので早期return
+    guard 9 < str.count else { return (istr ?? 0) * (flag ? sign : 1) }
+
+    // overflowした場合はnilになるので早期return
+    guard istr != nil else { return Int((sign == 1) ? Int32.max : Int32.min) }
+
+    let i = istr ?? 0
+
+    if Int32.min <= i, i <= Int32.max {
+        return i * (flag ? sign : 1)
+    } else {
+        return Int((sign == 1) ? Int32.max : Int32.min)
+    }
+}
+
+// pointer使用版
+func myAtoiP(_ str: String) -> Int {
+    let tri = str.trimmingCharacters(in: .whitespacesAndNewlines)
+    
+    // １文字の場合は早期return
+    guard Int(tri) == nil else { return expect(tri, str.contains("-") ? -1 : 1, false) }
+    
+    var sign = 1
+    var strs = ""
+    let strsp = UnsafeMutablePointer<String>(&strs)
+    
+    // 最初に出現する数字を抽出する
+    for (i, st) in tri.enumerated() {
+        let s = String(st)
+        
+        // 1文字目のみ判定
+        if i == 0 {
+            if s == "+" {
+                sign = 1
+            } else if s == "-" {
+                sign = -1
+            } else {
+                guard Int(s) != nil else { break } // 任意の文字列の場合、即終了
+                strsp.pointee += s
+            }
+        } else {
+            guard Int(s) != nil else { break } // 文字列に遭遇した段階で終了
+            strsp.pointee += s
+        }
+    }
+
+    return expect(strsp.pointee, sign, true)
+}
+
+
+
+/* 間違った答え（愚直に取り除いた見たパターン） */
+
+func myAtoi1(_ str: String) -> Int {
     let nospace = str.trimmingCharacters(in: .whitespacesAndNewlines)
     print("--nospace--", nospace)
 
@@ -83,3 +175,5 @@ func rangeIndex(_ d: Double) -> Int? {
         return nil
     }
 }
+
+/* /////////////////////////////////////////////////////// */
