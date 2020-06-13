@@ -19,6 +19,6 @@ Repository for learning Swift competitive programming
 | 9      |  [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | [leetcode_9](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_9.playground/Contents.swift)  |
 | 26      |  [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [leetcode_26](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_26.playground/Contents.swift)  |
 | 27      |  [Remove Element](https://leetcode.com/problems/remove-element/)  | [leetcode_27](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_27.playground/Contents.swift)  |
-| 28      |  [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [leetcode_27](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_28.playground/Contents.swift)  |
+| 28      |  [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [leetcode_28](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_28.playground/Contents.swift)  |
 
 to be continue
