@@ -78,3 +78,8 @@ func lengthOfLastWord4(_ s: String) -> Int {
     }
     return counter
 }
+
+/// discuss
+func lengthOfLastWord5(_ s: String) -> Int {
+    return s.split(separator: " ").last?.count ?? 0
+}
