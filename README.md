@@ -20,5 +20,6 @@ Repository for learning Swift competitive programming
 | 26      |  [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [leetcode_26](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_26.playground/Contents.swift)  |
 | 27      |  [Remove Element](https://leetcode.com/problems/remove-element/)  | [leetcode_27](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_27.playground/Contents.swift)  |
 | 28      |  [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [leetcode_28](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_28.playground/Contents.swift)  |
+| 58      |  [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  | [leetcode_58](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_58.playground/Contents.swift)  |
 
 to be continue
