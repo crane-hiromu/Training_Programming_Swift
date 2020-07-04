@@ -26,8 +26,9 @@ func mySqrt2(_ x: Int) -> Int {
     return Int(sqrt(Double(x)))
 }
 
+/// Linear search
 /// mySqrt3: 上から線形探索 -> runtime error
-/// mySqrt4: 下から線形探索 -> runtime 200~250
+/// mySqrt4: 下から線形探索 -> runtime 160~250
 func mySqrt3(_ x: Int) -> Int {
     guard 1 < x else { return x } // ignore 0, 1
     
@@ -40,11 +41,15 @@ func mySqrt3(_ x: Int) -> Int {
 }
 func mySqrt4(_ x: Int) -> Int {
     guard 1 < x else { return x } // ignore 0, 1
+    
+    let k = x/2+1
 
-    for k in (0...x/2+1) {
-        if x < k*k {
-            return k - 1
+    for l in (0...k) {
+        if x < l*l {
+            return l - 1
         }
     }
     return 0
 }
+
+/// Binary search
