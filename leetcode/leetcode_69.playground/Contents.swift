@@ -22,6 +22,29 @@ func mySqrt(_ x: Int) -> Int {
     return Int(Double(x).squareRoot())
 }
 
-func mySqr2(_ x: Int) -> Int {
+func mySqrt2(_ x: Int) -> Int {
     return Int(sqrt(Double(x)))
+}
+
+/// mySqrt3: 上から線形探索 -> runtime error
+/// mySqrt4: 下から線形探索 -> runtime 200~250
+func mySqrt3(_ x: Int) -> Int {
+    guard 1 < x else { return x } // ignore 0, 1
+    
+    var k = x/2+1
+    
+    while x < k*k {
+        k -= 1
+    }
+    return k
+}
+func mySqrt4(_ x: Int) -> Int {
+    guard 1 < x else { return x } // ignore 0, 1
+
+    for k in (0...x/2+1) {
+        if x < k*k {
+            return k - 1
+        }
+    }
+    return 0
 }
