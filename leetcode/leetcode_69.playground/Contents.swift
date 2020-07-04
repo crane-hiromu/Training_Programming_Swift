@@ -21,3 +21,7 @@ import UIKit
 func mySqrt(_ x: Int) -> Int {
     return Int(Double(x).squareRoot())
 }
+
+func mySqr2(_ x: Int) -> Int {
+    return Int(sqrt(Double(x)))
+}
