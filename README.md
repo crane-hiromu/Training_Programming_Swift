@@ -23,5 +23,7 @@ Repository for learning Swift competitive programming
 | 58      |  [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  | [leetcode_58](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_58.playground/Contents.swift)  |
 | 66      |  [Plus One](https://leetcode.com/problems/plus-one/)  | [leetcode_66](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_66.playground/Contents.swift)  |
 | 67      |  [Add Binary](https://leetcode.com/problems/add-binary/)  | [leetcode_67](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_67.playground/Contents.swift)  |
+| 69      |  [Sqrt(x)](https://leetcode.com/problems/sqrtx/)  | [leetcode_69](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_69.playground/Contents.swift)  |
+
 
 to be continue
