@@ -53,3 +53,21 @@ func mySqrt4(_ x: Int) -> Int {
 }
 
 /// Binary search
+func mySqrt5(_ x: Int) -> Int {
+    guard 1 < x else { return x }
+    
+    var left = 1
+    var right = x / 2
+    
+    while left <= right {
+        let middle = (left + right) / 2
+        if middle * middle <= x && x < (middle + 1) * (middle + 1) {
+            return middle
+        } else if x < middle * middle {
+            right = middle - 1
+        }  else if middle * middle < x {
+            left = middle + 1
+        }
+    }
+    return x
+}
