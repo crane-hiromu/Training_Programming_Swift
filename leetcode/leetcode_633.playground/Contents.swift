@@ -33,7 +33,7 @@ func judgeSquareSum(_ c: Int) -> Bool {
     return false
 }
 
-/// time limit (binary search)
+/// binary search
 func judgeSquareSum2(_ c: Int) -> Bool {
     var left = 0
     var right = Int(sqrt(Double(c)))
