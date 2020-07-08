@@ -26,6 +26,7 @@ Repository for learning Swift competitive programming
 | 69      |  [Sqrt(x)](https://leetcode.com/problems/sqrtx/)  | [leetcode_69](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_69.playground/Contents.swift)  |
 | 367      |  [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)  | [leetcode_367](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_367.playground/Contents.swift)  |
 | 633      |  [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)  | [leetcode_633](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_633.playground/Contents.swift)  |
+| 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)  | [leetcode_704](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_704.playground/Contents.swift)  |
 
 
 to be continue
