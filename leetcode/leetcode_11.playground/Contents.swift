@@ -32,3 +32,28 @@ func maxArea(_ height: [Int]) -> Int {
     }
     return result
 }
+
+/// answer(two pointer O(n))
+func maxArea2(_ height: [Int]) -> Int {
+    var left = 0
+    var right = height.count - 1
+    var result = 0
+    
+    while left < right {
+        let numL = height[left]
+        let numR = height[right]
+        
+        let h = min(numL, numR)
+        let w = right - left
+        let area = h*w
+        result = max(result, area)
+        
+        if numL < numR {
+            left += 1
+        } else {
+            right -= 1
+        }
+    }
+    
+    return result
+}
