@@ -11,7 +11,7 @@ Repository for learning Swift competitive programming
 | 1      | [Two Sum](https://leetcode.com/problems/two-sum/) | [leetcode_1](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1.playground/Contents.swift) |
 | 2      |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [leetcode_2](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2.playground/Contents.swift) |
 | 3      |  [WIP]()  | [leetcode_]()  |
-| 4      |  [WIP]()  | [leetcode_]()  |
+| 4      |  [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | [leetcode_4](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_4.playground/Contents.swift)  |
 | 5      |  [WIP]()  | [leetcode_]()  |
 | 6      |  [WIP]()  | [leetcode_]()  |
 | 7      |  [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [leetcode_7](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_7.playground/Contents.swift)  |
