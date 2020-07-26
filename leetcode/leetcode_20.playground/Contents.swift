@@ -30,3 +30,22 @@ import UIKit
  Output: true
  */
 
+// answer1 (stacks)
+func isValid1(_ s: String) -> Bool {
+    guard !(s.count == 0) else { return true }
+    
+    let dic: [Character: Character] = [")": "(", "}": "{", "]": "["]
+    var array = [Character]()
+
+    for str in s {
+        if dic.values.contains(str) {
+            array.append(str)
+        } else if array.isEmpty {
+            return false
+        } else if dic[str] != array.removeLast() {
+            return false
+        }
+    }
+    
+    return array.isEmpty
+}
