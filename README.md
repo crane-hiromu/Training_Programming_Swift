@@ -12,7 +12,7 @@ Repository for learning Swift competitive programming
 | 2      |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [leetcode_2](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2.playground/Contents.swift) |
 | 3      |  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  | [leetcode_3](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_3.playground/Contents.swift)  |
 | 4      |  [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | [leetcode_4](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_4.playground/Contents.swift)  |
-| 5      |  [WIP]()  | [leetcode_]()  |
+| 5      |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  | [leetcode_5](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_5.playground/Contents.swift)  |
 | 6      |  [WIP]()  | [leetcode_]()  |
 | 7      |  [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [leetcode_7](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_7.playground/Contents.swift)  |
 | 8     |  [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  | [leetcode_8](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_8.playground/Contents.swift)  |
