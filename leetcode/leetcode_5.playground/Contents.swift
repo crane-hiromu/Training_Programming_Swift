@@ -71,3 +71,49 @@ func longestPalindrome1(_ s: String) -> String {
     }
     return "\(result)\(reversed)"
 }
+
+/// answer2
+/// 中心を選択し左右を評価していく（１つの場合・同じ文字列の場合の２パターン考える）
+var array = [String.Element]()
+var result = ArraySlice<String.Element>()
+
+func longestPalindrome2(_ s: String) -> String {
+    guard 1 < s.count else { return s }
+    
+    array = Array(s)
+    
+    for i in (0..<array.count) {
+        let left = i, right = i
+        
+        /// 中心が奇数
+        calc(l: left, r: right)
+        
+        /// 中心が偶数
+        guard left+1 < array.count, array[left] == array[left+1] else { continue }
+        calc(l: left, r: left+1)
+    }
+    
+    return result.map { String($0) }.reduce("") { $0+$1 }
+}
+
+func calc(l: Int, r: Int) {
+    var left = l
+    var right = r
+    
+    while true {
+        /// breakする場合はその値を考慮しないので１つ戻す
+        guard array[left] == array[right] else {
+            left += 1
+            right -= 1
+            break
+        }
+
+        /// マイナス値の考慮
+        guard left != 0 && right != array.count-1 else { break }
+        left -= 1
+        right += 1
+    }
+
+    guard 0 <= left, right < array.count, result.count <= right-left else { return }
+    result = array[left...right]
+}
