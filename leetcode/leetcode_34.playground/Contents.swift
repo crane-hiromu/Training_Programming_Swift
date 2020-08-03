@@ -42,5 +42,41 @@ func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
     return [firstCounter, count-1-lastCounter]
 }
 
-/// answer2 ( Binary Search from solution - O(logn) )
-
+/// answer2 ( from discuss - Binary Search from solution - O(logn) )
+func searchRange2(_ nums: [Int], _ target: Int) -> [Int] {
+    var result = [-1,-1]
+    guard !nums.isEmpty else { return result }
+    
+    var low = 0
+    var high = nums.count - 1
+    
+    // left
+    while low < high {
+        let mid = (low + high) / 2
+        
+        if(nums[mid] < target) {
+            low = mid + 1
+        }else {
+            high = mid
+        }
+    }
+    
+    guard nums[low] == target else { return result }
+    result[0] = low
+    
+    
+    // right
+    high = nums.count - 1
+    while low < high {
+        let mid = (low + high) / 2 + 1
+        
+        if target < nums[mid]  {
+            high = mid - 1
+        }else {
+            low = mid
+        }
+    }
+    result[1] = high
+    
+    return result
+}
