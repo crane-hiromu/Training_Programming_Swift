@@ -39,6 +39,7 @@ Repository for learning Swift competitive programming
 | 66      |  [Plus One](https://leetcode.com/problems/plus-one/)  | [leetcode_66](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_66.playground/Contents.swift)  |
 | 67      |  [Add Binary](https://leetcode.com/problems/add-binary/)  | [leetcode_67](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_67.playground/Contents.swift)  |
 | 69      |  [Sqrt(x)](https://leetcode.com/problems/sqrtx/)  | [leetcode_69](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_69.playground/Contents.swift)  |
+| 70      |  [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  | [leetcode_70](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_70.playground/Contents.swift)  |
 | 169      |  [Majority Element](https://leetcode.com/problems/majority-element/)  | [leetcode_169](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_169.playground/Contents.swift)  |
 | 367      |  [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)  | [leetcode_367](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_367.playground/Contents.swift)  |
 | 412      |  [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)  | [leetcode_412](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_412.playground/Contents.swift)  |
