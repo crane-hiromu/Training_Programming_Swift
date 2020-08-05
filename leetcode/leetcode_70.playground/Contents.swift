@@ -72,3 +72,69 @@ func climbStairs1(_ n: Int) -> Int {
     
     return counter
 }
+
+/// answer2 - Fermat's little theorem
+/// オーバーヘッドを防ぐために掛け割りする数字の重複を先に取り除いてから計算する
+func climbStairs2(_ n: Int) -> Int {
+    guard n != 0 else { return 0 }
+    guard n != 1 else { return 1 }
+    guard n != 2 else { return 2 }
+
+    var counter: Double = 0
+    var twoStepCount = 0
+    var twoStepTotal = 2*twoStepCount
+
+    while twoStepTotal <= n {
+        let oneStepCount = n - twoStepTotal
+        let totalCount = oneStepCount + twoStepCount
+
+        // ignore nC0, nCn
+        guard twoStepCount != 0 && twoStepCount != totalCount else {
+            twoStepCount += 1
+            twoStepTotal = 2*twoStepCount
+            counter += 1
+            continue
+        }
+        // ignore nC1
+        guard twoStepCount != 1 else {
+            twoStepCount += 1
+            twoStepTotal = 2*twoStepCount
+            counter += Double(totalCount)
+            continue
+        }
+
+        // Fermat's little theorem
+        // totalCount C twoStepCount
+        var nums = [Int: Int]()
+        calc(nums: &nums, length: totalCount, isMolecule: true)               // n!
+        calc(nums: &nums, length: twoStepCount, isMolecule: false)            // k!
+        calc(nums: &nums, length: totalCount-twoStepCount, isMolecule: false) // (n-k)!
+
+        var result: Double = 1
+        for num in nums {
+            result *= pow(Double(num.key), Double(num.value))
+        }
+
+        twoStepCount += 1
+        twoStepTotal = 2*twoStepCount
+        counter += result
+        result = 1
+    }
+
+    /// 割る順番によっては割り切れず小数点が出てしまうため、端数を四捨五入する
+    /// -> あぶれる場合や足りない場合どちらもあるので
+    return Int(round(counter))
+}
+
+/// ！の計算
+func calc(nums: inout [Int: Int], length: Int, isMolecule: Bool) {
+    let index = (isMolecule ? 1 : -1)
+    
+    for n in 1...length {
+        if let num = nums[n] {
+            nums[n] = num + index
+        } else {
+            nums[n] = index
+        }
+    }
+}
