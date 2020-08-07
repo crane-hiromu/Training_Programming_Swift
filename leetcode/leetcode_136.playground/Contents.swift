@@ -27,7 +27,7 @@ func singleNumber1(_ nums: [Int]) -> Int {
         }
     }
     
-    return counters.filter { $0.value == 1 }.map { $0.key }.reduce(0) { $0+$1 }
+    return counters.filter { $0.value == 1 }.map { $0.key }.reduce(0, +)
 }
 
 /// answer2 ( from solution - Bit Manipulation )
