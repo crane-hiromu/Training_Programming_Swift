@@ -50,6 +50,7 @@ Repository for learning Swift competitive programming
 | 415      |  [Add Strings](https://leetcode.com/problems/add-strings/)  | [leetcode_415](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_415.playground/Contents.swift)  |
 | 633      |  [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)  | [leetcode_633](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_633.playground/Contents.swift)  |
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)  | [leetcode_704](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_704.playground/Contents.swift)  |
+| 977      |  [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)  | [leetcode_977](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_977.playground/Contents.swift)  | 
 
 
 to be continue
