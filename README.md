@@ -51,7 +51,7 @@ Repository for learning Swift competitive programming
 | 633      |  [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)  | [leetcode_633](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_633.playground/Contents.swift)  |
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)  | [leetcode_704](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_704.playground/Contents.swift)  |
 | 912      |  [Sort an Array](https://leetcode.com/problems/sort-an-array/)  | [leetcode_912](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_912.playground/Contents.swift)  | 
-| 922      |  [Sort an Array](https://leetcode.com/problems/sort-array-by-parity-ii/)  | [leetcode_922](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_922.playground/Contents.swift)  | 
+| 922      |  [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)  | [leetcode_922](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_922.playground/Contents.swift)  | 
 | 977      |  [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)  | [leetcode_977](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_977.playground/Contents.swift)  | 
 
 
