@@ -32,12 +32,36 @@ func sortArrayByParityII1(_ A: [Int]) -> [Int] {
     
     /// sum array
     var result = [Int]()
-    for i in 0..<(even.count + odd.count) {
-        if i % 2 == 0 {
-            result.append(even[i/2])
+    for i in 0..<even.count {
+        result.append(even[i])
+        result.append(odd[i])
+    }
+    return result
+}
+
+/// answer2 ( from discuss )
+func sortArrayByParityII2(_ A: [Int]) -> [Int] {
+    let even: [Int] = A.filter { $0 % 2 == 0 }
+    let odd: [Int] = A.filter { $0 % 2 != 0 }
+    
+    return zip(even, odd).flatMap {  [$0, $1] }
+}
+
+/// answer3 ( from discuss )
+func sortArrayByParityII3(_ A: [Int]) -> [Int] {
+    var evenIndex = 0
+    var oddIndex = 1
+    var result = Array<Int>(repeating: 0, count: A.count)
+    
+    A.forEach {
+        if $0 % 2 == 1 {
+            result[oddIndex] = $0
+            oddIndex += 2
         } else {
-            result.append(odd[i/2])
+            result[evenIndex] = $0
+            evenIndex += 2
         }
     }
+    
     return result
 }
