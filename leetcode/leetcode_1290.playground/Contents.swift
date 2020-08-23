@@ -53,3 +53,17 @@ func getDecimalValue1(_ head: ListNode?) -> Int {
     /// 取り出した値を連結し１０進数に変換
     return Int(nums.map(String.init).reduce("", +), radix: 2) ?? 0
 }
+
+/// answer2 ( from discuss )
+func getDecimalValue2(_ head: ListNode?) -> Int {
+    var prev = head
+    var result: Int = 0
+    
+    // bitシフトして桁を考慮する（Intでもビットシフト可能）
+    // 毎回orでビット演算し続ける。
+    while let p = prev {
+        result = (result << 1) | p.val
+        prev = p.next
+    }
+    return result
+}
