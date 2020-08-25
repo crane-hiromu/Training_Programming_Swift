@@ -51,3 +51,19 @@ func hasCycle1(_ head: ListNode?) -> Bool {
     }
     return false
 }
+
+/// answer2 ( two pointer )
+func hasCycle2(_ head: ListNode?) -> Bool {
+    var slow = head
+    var fast = slow?.next
+    
+    while let s = slow, let f = fast {
+        if s === f {
+            return true
+        }
+        slow = s.next
+        fast = f.next?.next
+    }
+    
+    return false
+}
