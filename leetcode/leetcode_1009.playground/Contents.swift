@@ -40,5 +40,5 @@ func bitwiseComplement1(_ N: Int) -> Int {
 
 /// answer2 ( 1の改良版。1liner )
 func bitwiseComplement2(_ N: Int) -> Int {
-    return String(N, radix: 2).map{($0 == "1" ? 0 : 1)}.reduce(0){$0 << 1 | $1}
+    return String(N, radix: 2).map{ $0 == "1" ? 0 : 1 }.reduce(0){ $0 << 1 | $1 }
 }
