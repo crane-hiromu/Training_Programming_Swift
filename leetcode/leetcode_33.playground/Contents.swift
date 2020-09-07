@@ -41,5 +41,35 @@ func search2(_ nums: [Int], _ target: Int) -> Int {
     return nums.firstIndex(where: {$0 == target}) ?? -1
 }
 
-/// answer3 ( from dis cuss binary search)
-
+/// answer3 ( binary search)
+func search(_ nums: [Int], _ target: Int) -> Int {
+    var left = 0
+    var right = nums.count - 1
+    
+    while left <= right {
+        let mid = (left+right)/2
+        
+        guard nums[mid] != target else { return mid }
+        
+        /// 左が単調増加
+        if nums[left] <= nums[mid] {
+            /// targetが範囲内にあるかどうか
+            if nums[left] <= target && target < nums[mid] {
+                right = mid-1
+            } else {
+                left = mid+1
+            }
+         
+        /// 右が単調増加
+        } else {
+            /// targetが範囲内にあるかどうか
+            if nums[mid] < target && target <= nums[right] {
+                left = mid+1
+            } else {
+                right = mid-1
+            }
+        }
+    }
+    
+    return -1
+}
