@@ -59,4 +59,57 @@ func find1(_ root: TreeNode?, _ k: Int, _ vals: inout Set<Int>) -> Bool {
     }
 }
 
-/// answer2
+
+/// answer2 ( brute force )
+func findTarget2(_ root: TreeNode?, _ k: Int) -> Bool {
+    var hash = [Int]()
+    takeOutVals2(root, &hash)
+    
+    for n in 0..<hash.count {
+        for m in 0..<hash.count {
+            if n != m, hash[n]+hash[m] == k {
+                return true
+            }
+        }
+    }
+    return false
+}
+
+func takeOutVals2(_ root: TreeNode?, _ vals: inout [Int]) {
+    guard let r = root else { return }
+    
+    vals.append(r.val)
+    takeOutVals2(r.left, &vals)
+    takeOutVals2(r.right, &vals)
+}
+
+/// answer ( two pointer )
+func findTarget3(_ root: TreeNode?, _ k: Int) -> Bool {
+    var hash = [Int]()
+    takeOutVals3(root, &hash)
+    
+    hash = hash.sorted()
+    
+    var left = 0, right = hash.count-1
+    
+    while left < right {
+        let sum = hash[left] + hash[right]
+        
+        if sum == k {
+            return true
+        } else if sum < k {
+            left += 1
+        } else {
+            right -= 1
+        }
+    }
+    return false
+}
+
+func takeOutVals3(_ root: TreeNode?, _ vals: inout [Int]) {
+    guard let r = root else { return }
+    
+    vals.append(r.val)
+    takeOutVals3(r.left, &vals)
+    takeOutVals3(r.right, &vals)
+}
