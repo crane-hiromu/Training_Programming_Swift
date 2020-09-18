@@ -30,10 +30,27 @@ import UIKit
  */
 
 /// answer1 ( simple way )
-func rotate(_ nums: inout [Int], _ k: Int) {
+func rotate1(_ nums: inout [Int], _ k: Int) {
     for _ in (0..<k) {
         nums.insert(nums.removeLast(), at: 0)
     }
 }
 
-/// answer2 
+/// answer2 ( from discuss )
+func rotate2(_ nums: inout [Int], _ k: Int) {
+    if nums.count <= 0 { return }
+    let kn = k % nums.count
+    
+    reverse(&nums, 0, nums.count-1)  // [1,2,3,4,5,6,7] -> [7,6,5,4,3,2,1]
+    reverse(&nums, 0, kn-1)          // [7,6,5,4,3,2,1] -> [5,6,7,4,3,2,1]
+    reverse(&nums, kn, nums.count-1) // [5,6,7,4,3,2,1] -> [5,6,7,1,2,3,4]
+}
+
+func reverse(_ nums: inout [Int], _ s: Int, _ e: Int) {
+    var s = s; var e = e
+    while s < e {
+        nums.swapAt(s, e)
+        s += 1
+        e -= 1
+    }
+}
