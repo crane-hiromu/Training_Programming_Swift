@@ -48,7 +48,7 @@ func addToArrayForm1F(_ A: [Int], _ K: Int) -> [Int] {
     return result
 }
 
-/// asnwer1
+/// answer1
 func addToArrayForm(_ A: [Int], _ K: Int) -> [Int] {
     /// ２つを逆さの配列にする（後ろから合計していくため）
     var reversedA = [Int]()
