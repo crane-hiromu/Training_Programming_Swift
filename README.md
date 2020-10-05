@@ -99,6 +99,7 @@ Repository for learning Swift competitive programming
 | 1342      |  [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)  | [leetcode_1342](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1342.playground/Contents.swift)  | 
 | 1486      |  [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)  | [leetcode_1486](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1486.playground/Contents.swift)  | 
 | 1523      |  [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)  | [leetcode_1523](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1523.playground/Contents.swift)  | 
+| 1550      |  [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)  | [leetcode_1550](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1550.playground/Contents.swift)  | 
 
 
 to be continue
