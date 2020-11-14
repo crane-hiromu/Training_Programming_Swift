@@ -106,6 +106,7 @@ Repository for learning Swift competitive programming
 | 1476      |  [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)  | [leetcode_1476](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1476.playground/Contents.swift)  |
 | 1480      |  [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  | [leetcode_1480](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1480.playground/Contents.swift)  |
 | 1486      |  [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)  | [leetcode_1486](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1486.playground/Contents.swift)  | 
+| 1512      |  [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  | [leetcode_1512](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1512.playground/Contents.swift)  | 
 | 1523      |  [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)  | [leetcode_1523](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1523.playground/Contents.swift)  | 
 | 1550      |  [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)  | [leetcode_1550](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1550.playground/Contents.swift)  | 
 
