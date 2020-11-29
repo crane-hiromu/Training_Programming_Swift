@@ -36,6 +36,11 @@ import UIKit
  0 <= arr[i] <= 10^4
  */
 
+/// answer0 (api)
+func sortByBits0(_ arr: [Int]) -> [Int] {
+    return arr.sorted(by: { $0.nonzeroBitCount < $1.nonzeroBitCount || $0.nonzeroBitCount == $1.nonzeroBitCount && $0 < $1 })
+}
+
 /// answer1
 func sortByBits1(_ arr: [Int]) -> [Int] {
     var hash = [Int: [Int]]()
