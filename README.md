@@ -114,6 +114,7 @@ Repository for learning Swift competitive programming
 | 1512      |  [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  | [leetcode_1512](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1512.playground/Contents.swift)  | 
 | 1523      |  [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)  | [leetcode_1523](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1523.playground/Contents.swift)  | 
 | 1550      |  [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)  | [leetcode_1550](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1550.playground/Contents.swift)  | 
+| 1551      |  [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)  | [leetcode_1551](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1551.playground/Contents.swift)  | 
 
 
 to be continue
