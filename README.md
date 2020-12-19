@@ -116,6 +116,7 @@ Repository for learning Swift competitive programming
 | 1550      |  [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)  | [leetcode_1550](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1550.playground/Contents.swift)  | 
 | 1551      |  [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)  | [leetcode_1551](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1551.playground/Contents.swift)  | 
 | 1672      |  [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  | [leetcode_1672](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1672.playground/Contents.swift)  | 
+| 1689      |  [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)  | [leetcode_1689](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1689.playground/Contents.swift)  | 
 
 
 to be continue
