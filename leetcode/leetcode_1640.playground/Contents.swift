@@ -38,34 +38,21 @@ import UIKit
 
 func canFormArray(_ arr: [Int], _ pieces: [[Int]]) -> Bool {
     for nums in pieces {
-        var counter = 0
-        var hasNum = false
-        
+        var counter = 0, hasNum = false
+
         for num in arr {
-            // 配列の数が１つの時
-            if nums.count == 1 {
-                if nums[0] == num {
-                    hasNum = true
-                    counter += 1
-                    break
-                }
-                 
-            // 配列の数が２つ以上の時
-            } else {
-                if nums[counter] == num {
-                    hasNum = true
-                    counter += 1
-                    // ignore out of range
-                    if nums.count == counter { break }
-                    
-                // 並び順が違う場合は即時false（前回trueの場合は今回もtureでないと不成立）
-                } else if hasNum {
-                    return false
-                }
+            if nums[counter] == num {
+                hasNum = true
+                counter += 1
+                // ignore out of range
+                if nums.count == counter { break }
+
+            // 並び順が違う場合は即時false（前回trueの場合は今回もtureでないと不成立）
+            } else if hasNum {
+                return false
             }
         }
-        
-        // falseの場合は含まれていないので除外。counterに達してない場合も複数個が一致してないので除外
+
         guard hasNum, nums.count == counter else { return false }
     }
     return true
