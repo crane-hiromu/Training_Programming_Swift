@@ -128,6 +128,6 @@ Repository for learning Swift competitive programming
 | 1640      |  [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)  | [leetcode_1640](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1640.playground/Contents.swift)  | 
 | 1672      |  [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  | [leetcode_1672](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1672.playground/Contents.swift)  | 
 | 1689      |  [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)  | [leetcode_1689](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1689.playground/Contents.swift)  | 
-
+| 1752      |  [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)  | [leetcode_1752](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1752.playground/Contents.swift)  |
 
 to be continue
