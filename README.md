@@ -132,5 +132,7 @@ Repository for learning Swift competitive programming
 | 1752      |  [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)  | [leetcode_1752](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1752.playground/Contents.swift)  |
 | 1758      |  [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)  | [leetcode_1758](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1758.playground/Contents.swift)  |
 | 1773      |  [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)  | [leetcode_1773](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1773.playground/Contents.swift)  |
+| 1775      |  [Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)  | [leetcode_1775](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1775.playground/Contents.swift)  |
+
 
 to be continue
