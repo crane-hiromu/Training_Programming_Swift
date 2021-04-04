@@ -134,6 +134,7 @@ Repository for learning Swift competitive programming
 | 1773      |  [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)  | [leetcode_1773](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1773.playground/Contents.swift)  |
 | 1775      |  [Equal Sum Arrays With Minimum Number of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)  | [leetcode_1775](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1775.playground/Contents.swift)  |
 | 1800      |  [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)  | [leetcode_1800](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1800.playground/Contents.swift)  |
+| 1816      |  [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)  | [leetcode_1816](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1816.playground/Contents.swift)  |
 
 
 to be continue
