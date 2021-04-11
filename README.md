@@ -136,6 +136,7 @@ Repository for learning Swift competitive programming
 | 1800      |  [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)  | [leetcode_1800](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1800.playground/Contents.swift)  |
 | 1812      |  [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)  | [leetcode_1812](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1812.playground/Contents.swift)  |
 | 1816      |  [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)  | [leetcode_1816](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1816.playground/Contents.swift)  |
+| 1822      |  [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)  | [leetcode_1822](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1822.playground/Contents.swift)  |
 
 
 to be continue
