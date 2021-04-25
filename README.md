@@ -139,6 +139,7 @@ Repository for learning Swift competitive programming
 | 1812      |  [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)  | [leetcode_1812](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1812.playground/Contents.swift)  |
 | 1816      |  [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)  | [leetcode_1816](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1816.playground/Contents.swift)  |
 | 1822      |  [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)  | [leetcode_1822](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1822.playground/Contents.swift)  |
+| 1827      |  [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)  | [leetcode_1827](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1827.playground/Contents.swift)  |
 | 1832      |  [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)  | [leetcode_1832](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1832.playground/Contents.swift)  |
 
 
