@@ -142,6 +142,7 @@ Repository for learning Swift competitive programming
 | 1822      |  [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)  | [leetcode_1822](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1822.playground/Contents.swift)  |
 | 1827      |  [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)  | [leetcode_1827](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1827.playground/Contents.swift)  |
 | 1832      |  [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)  | [leetcode_1832](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1832.playground/Contents.swift)  |
+| 1844      |  [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)  | [leetcode_1844](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1844.playground/Contents.swift)  |
 
 
 to be continue
