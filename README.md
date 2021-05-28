@@ -148,6 +148,7 @@ Repository for learning Swift competitive programming
 | 1854      |  [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)  | [leetcode_1854](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1854.playground/Contents.swift)  |
 | 1859      |  [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)  | [leetcode_1859](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1859.playground/Contents.swift)  |
 | 1865      |  [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)  | [leetcode_1865](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1865.playground/Contents.swift)  |
+| 1869      |  [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)  | [leetcode_1869](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1869.playground/Contents.swift)  |
 
 
 to be continue
