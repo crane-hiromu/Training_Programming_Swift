@@ -43,14 +43,9 @@ import UIKit
  */
 
 func isSumEqual(_ firstWord: String, _ secondWord: String, _ targetWord: String) -> Bool {
-    var sum1: UInt32 = 0
-    firstWord.unicodeScalars.forEach { sum1 = sum1*10+($0.value-97) }
-    
-    var sum2: UInt32 = 0
-    secondWord.unicodeScalars.forEach { sum2 = sum2*10+($0.value-97) }
-    
-    var sumT: UInt32 = 0
-    targetWord.unicodeScalars.forEach { sumT = sumT*10+($0.value-97) }
-    
-    return sum1+sum2 == sumT
+    concatenate(firstWord) + concatenate(secondWord) == concatenate(targetWord)
+}
+
+func concatenate(_ word: String) -> UInt32 {
+    word.unicodeScalars.map { $0.value-97 }.reduce(0) { $0*10+$1 }
 }

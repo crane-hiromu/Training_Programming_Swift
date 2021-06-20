@@ -150,5 +150,6 @@ Repository for learning Swift competitive programming
 | 1865      |  [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)  | [leetcode_1865](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1865.playground/Contents.swift)  |
 | 1869      |  [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)  | [leetcode_1869](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1869.playground/Contents.swift)  |
 | 1880      |  [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)  | [leetcode_1880](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1880.playground/Contents.swift)  |
+| 1903      |  [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)  | [leetcode_1903](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1903.playground/Contents.swift)  |
 
 to be continue
