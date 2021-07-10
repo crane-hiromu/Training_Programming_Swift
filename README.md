@@ -155,5 +155,6 @@ Repository for learning Swift competitive programming
 | 1903      |  [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)  | [leetcode_1903](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1903.playground/Contents.swift)  |
 | 1909      |  [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)  | [leetcode_1909](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1909.playground/Contents.swift)  |
 | 1913      |  [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)  | [leetcode_1913](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1913.playground/Contents.swift)  |
+| 1920      |  [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  | [leetcode_1920](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1920.playground/Contents.swift)  |
 
 to be continue
