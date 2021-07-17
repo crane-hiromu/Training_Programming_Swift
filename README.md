@@ -157,5 +157,6 @@ Repository for learning Swift competitive programming
 | 1913      |  [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)  | [leetcode_1913](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1913.playground/Contents.swift)  |
 | 1920      |  [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  | [leetcode_1920](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1920.playground/Contents.swift)  |
 | 1925      |  [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)  | [leetcode_1925](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1925.playground/Contents.swift)  |
+| 1929      |  [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  | [leetcode_1929](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1929.playground/Contents.swift)  |
 
 to be continue
