@@ -160,5 +160,6 @@ Repository for learning Swift competitive programming
 | 1925      |  [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)  | [leetcode_1925](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1925.playground/Contents.swift)  |
 | 1929      |  [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  | [leetcode_1929](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1929.playground/Contents.swift)  |
 | 1935      |  [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)  | [leetcode_1935](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1935.playground/Contents.swift)  |
+| 1952      |  [Three Divisors](https://leetcode.com/problems/three-divisors/)  | [leetcode_1952](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1952.playground/Contents.swift)  |
 
 to be continue
