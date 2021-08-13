@@ -161,6 +161,7 @@ Repository for learning Swift competitive programming
 | 1929      |  [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  | [leetcode_1929](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1929.playground/Contents.swift)  |
 | 1935      |  [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)  | [leetcode_1935](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1935.playground/Contents.swift)  |
 | 1945      |  [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)  | [leetcode_1945](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1945.playground/Contents.swift)  |
-| 1952      |  [Three Divisors](https://leetcode.com/problems/three-divisors/)  | [leetcode_1952](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1952.playground/Contents.swift)  |
+| 1952      |  [Three Divisors](https://leetcode.com/problems/three-divisors/)  | [leetcode_1952](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1952.playground/Contents.swift) |
+| 1957      |  [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | [leetcode_1957](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1957.playground/Contents.swift) |
 
 to be continue
