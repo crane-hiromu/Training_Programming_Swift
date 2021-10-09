@@ -173,6 +173,7 @@ Repository for learning Swift competitive programming
 | 2000      |  [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | [leetcode_2000](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2000.playground/Contents.swift) |
 | 2011      |  [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [leetcode_2000](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2011.playground/Contents.swift) |
 | 2016      |  [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | [leetcode_2016](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2016.playground/Contents.swift) |
+| 2022      |  [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | [leetcode_2022](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2022.playground/Contents.swift) |
 | 2027      |  [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | [leetcode_2027](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2027.playground/Contents.swift) |
 
 to be continue
