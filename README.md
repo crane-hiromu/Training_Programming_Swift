@@ -175,5 +175,6 @@ Repository for learning Swift competitive programming
 | 2016      |  [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | [leetcode_2016](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2016.playground/Contents.swift) |
 | 2022      |  [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | [leetcode_2022](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2022.playground/Contents.swift) |
 | 2027      |  [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | [leetcode_2027](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2027.playground/Contents.swift) |
+| 2032      |  [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | [leetcode_2032](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2032.playground/Contents.swift) |
 
 to be continue
