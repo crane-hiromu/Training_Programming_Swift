@@ -38,8 +38,8 @@ public class TreeNode {
 func minDepth1(_ root: TreeNode?) -> Int {
     guard let r = root else { return 0 }
     
-    let left = minDepth(r.left)
-    let right = minDepth(r.right)
+    let left = minDepth1(r.left)
+    let right = minDepth1(r.right)
     let minIndex = min(left, right)
     
     if minIndex == 0 {
@@ -53,13 +53,13 @@ func minDepth1(_ root: TreeNode?) -> Int {
 func minDepth2(_ root: TreeNode?) -> Int {
     guard let r = root else { return 0 }
     
-    var queue: [(TreeNode, Int)] = [(r, 1)], result = 1000000 // 仮の値だが設定しなくて済むなら無くしたい
-    
+    var queue: [(TreeNode, Int)] = [(r, 1)], result = Int.max
     while !queue.isEmpty {
         let obj = queue.removeFirst()
         
         if obj.0.left == nil, obj.0.right == nil {
             result = min(result, obj.1)
+            break // 最短距離を見つけたら抜ける
         }
         if let l = obj.0.left {
             queue.append((l, obj.1+1))
