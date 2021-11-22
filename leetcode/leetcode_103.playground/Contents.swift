@@ -34,27 +34,26 @@ public class TreeNode {
 }
 
 func zigzagLevelOrder(_ root: TreeNode?) -> [[Int]] {
-    guard root != nil else { return [] }
+    guard let r = root else { return [] }
     
-    var result = [[Int]](), queue = [root], flag = true
+    var result = [[Int]](), queue = [r], flag = true
     
     while !queue.isEmpty {
         var count = queue.count - 1
         var temp = [Int]()
         
         while 0 <= count {
-            if let node = queue.removeFirst() {
-                if flag {
-                    temp.append(node.val)
-                } else {
-                    temp.insert(node.val, at: 0)
-                }
-                
-                count -= 1
-                
-                if let l = node.left { queue.append(l) }
-                if let r = node.right { queue.append(r) }
+            let node = queue.removeFirst()
+            if flag {
+                temp.append(node.val)
+            } else {
+                temp.insert(node.val, at: 0)
             }
+
+            count -= 1
+
+            if let l = node.left { queue.append(l) }
+            if let r = node.right { queue.append(r) }
         }
         result.append(temp)
         flag.toggle()

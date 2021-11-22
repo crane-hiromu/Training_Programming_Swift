@@ -45,9 +45,9 @@ public class Node {
 }
 
 func connect(_ root: Node?) -> Node? {
-    guard root != nil else { return nil }
+    guard let r = root else { return nil }
     
-    var queue = [root]
+    var queue = [r]
     
     while !queue.isEmpty {
         var count = queue.count - 1
@@ -55,12 +55,11 @@ func connect(_ root: Node?) -> Node? {
         
         // 各レイヤーのnodeを列挙
         while 0 <= count {
-            if let node = queue.removeFirst() {
-                temp.append(node)
-                count -= 1
-                if let l = node.left { queue.append(l) }
-                if let r = node.right { queue.append(r) }
-            }
+            let node = queue.removeFirst()
+            temp.append(node)
+            count -= 1
+            if let l = node.left { queue.append(l) }
+            if let r = node.right { queue.append(r) }
         }
         
         // nodeを順番にセット

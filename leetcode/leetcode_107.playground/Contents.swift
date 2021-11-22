@@ -34,21 +34,20 @@ public class TreeNode {
 }
 
 func levelOrderBottom(_ root: TreeNode?) -> [[Int]] {
-    guard root != nil else { return [] }
+    guard let r = root else { return [] }
     
-    var queue = [root], result = [[Int]]()
+    var queue = [r], result = [[Int]]()
     
     while !queue.isEmpty {
         var count = queue.count - 1
         var temp = [Int]()
         
         while 0 <= count {
-            if let node = queue.removeFirst() {
-                temp.append(node.val)
-                count -= 1
-                if let l = node.left { queue.append(l) }
-                if let r = node.right { queue.append(r) }
-            }
+            let node = queue.removeFirst()
+            temp.append(node.val)
+            count -= 1
+            if let l = node.left { queue.append(l) }
+            if let r = node.right { queue.append(r) }
         }
         result.insert(temp, at: 0)
     }

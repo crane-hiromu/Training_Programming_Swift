@@ -1,9 +1,4 @@
-//
-//  leetcode_693.swift
-//  
-//
-//  Created by h.crane on 2021/01/02.
-//
+import UIKit
 
 /*
  Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
