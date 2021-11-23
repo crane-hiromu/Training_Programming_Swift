@@ -80,3 +80,53 @@ func mergeKLists2(_ lists: [ListNode?]) -> ListNode? {
     
     return flatLists.first ?? nil
 }
+
+/// merge sort
+func mergeKLists3(_ lists: [ListNode?]) -> ListNode? {
+    guard !lists.isEmpty else { return nil }
+    guard !(lists.count == 1) else { return lists[0] }
+    
+    var vals = [Int]()
+    
+    for list in lists {
+        var current = list
+        while let node = current {
+            vals.append(node.val)
+            current = node.next
+        }
+    }
+    
+    let sortedNums = mergeSort(vals)
+    var result = ListNode()
+    for num in sortedNums {
+        result.val = num
+        let prev = ListNode()
+        prev.next = result
+        result = prev
+    }
+    return result.next
+}
+
+func mergeSort(_ nums: [Int]) -> [Int] {
+    guard 1 < nums.count else { return nums }
+    
+    let left = Array(nums[..<Int(nums.count/2)])
+    let right = Array(nums[Int(nums.count/2)..<nums.count])
+    return mergeSort(left: mergeSort(left), right: mergeSort(right))
+}
+
+func mergeSort(left: [Int], right: [Int]) -> [Int] {
+    var l = left, r = right, result = [Int]()
+    
+    // nodeを生成する都合上、大きい順にする
+    while 0 < r.count && 0 < l.count {
+        if (l.last ?? 0) < (r.last ?? 0) {
+            result.insert(l.removeLast(), at: 0)
+        } else {
+            result.insert(r.removeLast(), at: 0)
+        }
+    }
+    result.insert(contentsOf: l, at: 0)
+    result.insert(contentsOf: r, at: 0)
+    return result
+}
