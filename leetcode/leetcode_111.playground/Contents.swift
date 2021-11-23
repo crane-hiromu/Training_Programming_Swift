@@ -49,6 +49,17 @@ func minDepth1(_ root: TreeNode?) -> Int {
     }
 }
 
+func minDepth1_2(_ root: TreeNode?) -> Int {
+    guard let r = root else { return 0 }
+    let left = minDepth1_2(r.left)
+    let right = minDepth1_2(r.right)
+    
+    if left == 0 && right == 0 { return 1 }
+    if left == 0 { return 1 + right }
+    if right == 0 { return 1 + left }
+    return 1 + min(left, right)
+}
+
 // 幅優先探索だと遅いっぽい
 func minDepth2(_ root: TreeNode?) -> Int {
     guard let r = root else { return 0 }
