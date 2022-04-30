@@ -1,10 +1,3 @@
-//
-//  leetcode_1331.swift
-//  
-//
-//  Created by h.crane on 2021/01/31.
-//
-
 /*
  Given an array of integers arr, replace each element with its rank.
  The rank represents how large the element is. The rank has the following rules:
@@ -35,10 +28,9 @@
 func arrayRankTransform(_ arr: [Int]) -> [Int] {
     let sorted = Array(Set(arr)).sorted()
     var store = [Int: Int]()
-    var counter = 0
     
     for (i, num) in sorted.enumerated() {
-        if let val = store[num] {
+        if let _ = store[num] {
             // nop
         } else {
             store[num] = i+1

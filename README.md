@@ -209,5 +209,6 @@ Repository for learning Swift competitive programming
 | 2032      |  [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | [leetcode_2032](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2032.playground/Contents.swift) |
 | 2206      |  [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/) | [leetcode_2206](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2206.playground/Contents.swift) |
 | 2248      |  [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [leetcode_2248](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2248.playground/Contents.swift) |
+| 2255      |  [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [leetcode_2255](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2255.playground/Contents.swift) |
 
 to be continue
