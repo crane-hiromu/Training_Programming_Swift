@@ -212,6 +212,7 @@ Repository for learning Swift competitive programming
 | 2255      |  [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [leetcode_2255](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2255.playground/Contents.swift) |
 | 2259      |  [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [leetcode_2259](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2259.playground/Contents.swift) |
 | 2264      |  [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [leetcode_2264](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2264.playground/Contents.swift) |
+| 2395      |  [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [leetcode_2395](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2395.playground/Contents.swift) |
 | 2413      |  [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [leetcode_2413](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2413.playground/Contents.swift) |
 | 2418      |  [Sort the People](https://leetcode.com/problems/sort-the-people/) | [leetcode_2418](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2418.playground/Contents.swift) |
 
