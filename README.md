@@ -215,5 +215,6 @@ Repository for learning Swift competitive programming
 | 2395      |  [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [leetcode_2395](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2395.playground/Contents.swift) |
 | 2413      |  [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [leetcode_2413](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2413.playground/Contents.swift) |
 | 2418      |  [Sort the People](https://leetcode.com/problems/sort-the-people/) | [leetcode_2418](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2418.playground/Contents.swift) |
+| 2427      |  [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | [leetcode_2427](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2427.playground/Contents.swift) |
 
 to be continue
