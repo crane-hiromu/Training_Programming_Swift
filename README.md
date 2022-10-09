@@ -162,6 +162,7 @@ Repository for learning Swift competitive programming
 | 1640      |  [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)  | [leetcode_1640](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1640.playground/Contents.swift)  | 
 | 1672      |  [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  | [leetcode_1672](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1672.playground/Contents.swift)  | 
 | 1689      |  [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)  | [leetcode_1689](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1689.playground/Contents.swift)  | 
+| 1720      |  [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)  | [leetcode_1720](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1720.playground/Contents.swift)  |
 | 1748      |  [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)  | [leetcode_1748](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1748.playground/Contents.swift)  |
 | 1752      |  [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)  | [leetcode_1752](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1752.playground/Contents.swift)  |
 | 1758      |  [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)  | [leetcode_1758](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_1758.playground/Contents.swift)  |
@@ -217,5 +218,7 @@ Repository for learning Swift competitive programming
 | 2418      |  [Sort the People](https://leetcode.com/problems/sort-the-people/) | [leetcode_2418](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2418.playground/Contents.swift) |
 | 2427      |  [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | [leetcode_2427](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2427.playground/Contents.swift) |
 | 2428      |  [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | [leetcode_2428](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2428.playground/Contents.swift) |
+| 2433      |  [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | [leetcode_2433](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2433.playground/Contents.swift) |
+
 
 to be continue
