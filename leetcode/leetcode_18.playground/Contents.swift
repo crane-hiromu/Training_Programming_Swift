@@ -40,3 +40,32 @@ func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
 
     return Array(Set(result))
 }
+
+// two pointer
+func fourSum_2(_ nums: [Int], _ target: Int) -> [[Int]] {
+    let sortedNums = nums.sorted()
+    let count = nums.count
+    var result = [[Int]]()
+    
+    for i in 0..<count {
+        for j in i+1..<count {
+            var left = j+1
+            var right = count-1
+            let diff = target - sortedNums[i] - sortedNums[j]
+            
+            while left < right {
+                if diff == sortedNums[left] + sortedNums[right] {
+                    result.append([sortedNums[i], sortedNums[j], sortedNums[left], sortedNums[right]])
+                    left += 1
+                    right -= 1
+                } else if diff < sortedNums[left] + sortedNums[right] {
+                    right -= 1
+                } else {
+                    left += 1
+                }
+            }
+        }
+    }
+    
+    return Array(Set(result))
+}
