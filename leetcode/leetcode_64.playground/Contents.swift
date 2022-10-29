@@ -1,49 +1,68 @@
 import UIKit
 
 /*
- Given an integer array nums of unique elements, return all possible subsets (the power set).
- The solution set must not contain duplicate subsets. Return the solution in any order.
-
+ Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.
+ Note: You can only move either down or right at any point in time.
  Example 1:
- Input: nums = [1,2,3]
- Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
-
+ Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
+ Output: 7
+ Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
+ 
  Example 2:
- Input: nums = [0]
- Output: [[],[0]]
+ Input: grid = [[1,2,3],[4,5,6]]
+ Output: 12
   
  Constraints:
- 1 <= nums.length <= 10
- -10 <= nums[i] <= 10
- All the numbers of nums are unique.
+ m == grid.length
+ n == grid[i].length
+ 1 <= m, n <= 200
+ 0 <= grid[i][j] <= 100
  */
 
-/* example 1
- []
- |           \       \
- [1]          [2]    [3]
- |            |
- [1,2] [1,3]  [2,3]
- |
- [1,2,3]
- */
+func minPathSum(_ grid: [[Int]]) -> Int {
+    var matrix: [[Int]] = grid
+    let n = grid.count - 1
+    let m = grid[0].count - 1
 
-func subsets(_ nums: [Int]) -> [[Int]] {
-    guard !nums.isEmpty else { return [[]] }
-    
-    var result = [[Int]]()
-    backtrack(start: 0, current: [], nums: nums, result: &result)
+    for i in 0...n {
+        for j in 0...m {
+            var step = matrix[i][j]
+
+            if 0 < i && 0 < j {
+                step += min(matrix[i-1][j], matrix[i][j-1])
+            } else if 0 < i && j == 0 {
+                step += matrix[i-1][j]
+            } else if 0 < j && i == 0 {
+                step += matrix[i][j-1]
+            }
+
+            matrix[i][j] = step
+        }
+    }
+
+    return matrix[n][m]
+}
+
+// backtrack - Time Limit Exceeded
+func minPathSum2(_ grid: [[Int]]) -> Int {
+    var result = Int.max
+    backtrack(x: 0, y: 0, grid: grid, sum: grid[0][0], result: &result)
     return result
 }
 
-func backtrack(start: Int, current: [Int], nums: [Int], result: inout [[Int]]) {
-    result.append(current)
-    
-    var updated = current
+func backtrack(x: Int, y: Int, grid: [[Int]], sum: Int, result: inout Int) {
+    let endX = grid.count-1
+    let endY = grid[endX].count-1
 
-    for i in start..<nums.count {
-        updated.append(nums[i])
-        backtrack(start: i+1, current: updated, nums: nums, result: &result)
-        updated.removeLast()
+    if x == endX, y == endY {
+        result = min(result, sum)
+        return
+    }
+
+    if x < endX {
+        backtrack(x: x+1, y: y, grid: grid, sum: sum + grid[x+1][y], result: &result)
+    }
+    if y < endY {
+        backtrack(x: x, y: y+1, grid: grid, sum: sum + grid[x][y+1], result: &result)
     }
 }
