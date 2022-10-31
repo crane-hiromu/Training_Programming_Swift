@@ -62,7 +62,7 @@ func findMaxK2(_ nums: [Int]) -> Int {
 }
 
 // two pointer
-func findMaxK2(_ nums: [Int]) -> Int {
+func findMaxK3(_ nums: [Int]) -> Int {
     let sortedNums = nums.sorted()
     var start = 0, end = nums.count-1
     
