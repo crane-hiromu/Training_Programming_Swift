@@ -241,7 +241,7 @@ Repository for learning Swift competitive programming
 | 2446      |  [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/) | [leetcode_2446](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2446.playground/Contents.swift) |
 | 2451      |  [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | [leetcode_2451](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2451.playground/Contents.swift) |
 | 2455      |  [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | [leetcode_2455](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2455.playground/Contents.swift) |
-| 2460      |  [Apply Operations to an Array](https://github.com/crane-hiromu/CombineAsyncable/issues) | [leetcode_2460](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2460.playground/Contents.swift) |
-
+| 2460      |  [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/) | [leetcode_2460](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2460.playground/Contents.swift) |
+| 2469      |  [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | [leetcode_2469](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2469.playground/Contents.swift) |
 
 to be continue
