@@ -45,3 +45,26 @@ func countNodes(_ root: TreeNode?) -> Int {
     
     return counter
 }
+
+// dfs
+class Solution1 {
+    func countNodes(_ root: TreeNode?) -> Int {
+        var counter = 0
+        dfs(next: root, counter: &counter)
+        return counter
+    }
+    
+    func dfs(next node: TreeNode?, counter: inout Int) {
+        guard let n = node else { return }
+        counter += 1
+        dfs(next: n.left, counter: &counter)
+        dfs(next: n.right, counter: &counter)
+    }
+}
+
+class Solution2 {
+    func countNodes(_ root: TreeNode?) -> Int {
+        guard let r = root else { return 0 }
+        return countNodes(r.left) + countNodes(r.right) + 1
+    }
+}
