@@ -82,3 +82,29 @@ class Solution {
         }
     }
 }
+
+// DFS
+class Solution2 {
+    func averageOfSubtree(_ root: TreeNode?) -> Int {
+        dfs(next: root).result
+    }
+        
+    func dfs(next node: TreeNode?) -> (sum: Int, count: Int, result: Int) {
+        guard let n = node else { return (sum: 0, count: 0, result: 0) }
+        
+        let left = dfs(next: n.left)
+        let right = dfs(next: n.right)
+        
+        let sum = n.val + left.sum + right.sum
+        let count = 1 + left.count + right.count
+        var result = left.result + right.result
+        
+        if sum / count == n.val {
+            result += 1
+        }
+        
+        return (sum: n.val + left.sum + right.sum,
+                count: 1 + left.count + right.count,
+                result: result)
+    }
+}
