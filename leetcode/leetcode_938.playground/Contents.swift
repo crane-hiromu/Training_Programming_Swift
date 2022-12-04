@@ -64,15 +64,11 @@ class Solution {
 class Solution2 {
     
     func rangeSumBST(_ root: TreeNode?, _ low: Int, _ high: Int) -> Int {
-        dfs(next: root, low, high)
-    }
-    
-    func dfs(next node: TreeNode?, _ low: Int, _ high: Int) -> Int {
-        guard let n = node else { return 0 }
+        guard let n = root else { return 0 }
         
         var sum = (low...high).contains(n.val) ? n.val : 0
-        sum += dfs(next: n.left, low, high)
-        sum += dfs(next: n.right, low, high)
+        sum += rangeSumBST(n.left, low, high)
+        sum += rangeSumBST(n.right, low, high)
         return sum
     }
 }
