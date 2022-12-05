@@ -48,4 +48,38 @@ func getAllElements(_ root1: TreeNode?, _ root2: TreeNode?) -> [Int] {
     return nums.sorted()
 }
 
-// DFS
+// DFS preorder
+class Solution {
+    func getAllElements(_ root1: TreeNode?, _ root2: TreeNode?) -> [Int] {
+        var nums = [Int]()
+        dfs(next: root1, nums: &nums)
+        dfs(next: root2, nums: &nums)
+        return nums.sorted()
+    }
+    
+    func dfs(next node: TreeNode?, nums: inout [Int]) {
+        guard let n = node else { return }
+        nums.append(n.val)
+        dfs(next: n.left, nums: &nums)
+        dfs(next: n.right, nums: &nums)
+    }
+}
+
+// DFS postorder
+class Solution {
+    func getAllElements(_ root1: TreeNode?, _ root2: TreeNode?) -> [Int] {
+        var nums = [Int]()
+        nums += dfs(next: root1)
+        nums += dfs(next: root2)
+        return nums.sorted()
+    }
+    
+    func dfs(next node: TreeNode?) -> [Int] {
+        guard let n = node else { return [] }
+        
+        var nums = [n.val]
+        nums += dfs(next: n.left)
+        nums += dfs(next: n.right)
+        return nums
+    }
+}
