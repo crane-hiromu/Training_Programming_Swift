@@ -271,5 +271,6 @@ Repository for learning Swift competitive programming
 | 2460      |  [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/) | [leetcode_2460](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2460.playground/Contents.swift) |
 | 2465      |  [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/) | [leetcode_2465](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2465.playground/Contents.swift) |
 | 2469      |  [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | [leetcode_2469](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2469.playground/Contents.swift) |
+| 2500      |  [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/) | [leetcode_2500](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2500.playground/Contents.swift) |
 
 to be continue
