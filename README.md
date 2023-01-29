@@ -298,5 +298,6 @@ Repository for learning Swift competitive programming
 | 2500      |  [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/description/) | [leetcode_2500](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2500.playground/Contents.swift) |
 | 2520      |  [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/) | [leetcode_2520](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2520.playground/Contents.swift) |
 | 2529      |  [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/) | [leetcode_2529](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2529.playground/Contents.swift) |
+| 2545      |  [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/) | [leetcode_2545](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2545.playground/Contents.swift) |
 
 to be continue
