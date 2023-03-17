@@ -328,5 +328,6 @@ Repository for learning Swift competitive programming
 | 2520      |  [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | [leetcode_2520](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2520.playground/Contents.swift) |
 | 2529      |  [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | [leetcode_2529](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2529.playground/Contents.swift) |
 | 2545      |  [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | [leetcode_2545](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2545.playground/Contents.swift) |
+| 2586      |  [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/) | [leetcode_2586](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2586.playground/Contents.swift) |
 
 to be continue
