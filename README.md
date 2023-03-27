@@ -335,5 +335,6 @@ Repository for learning Swift competitive programming
 | 2574      |  [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | [leetcode_2574](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2574.playground/Contents.swift) |
 | 2578      |  [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | [leetcode_2578](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2578.playground/Contents.swift) |
 | 2586      |  [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/) | [leetcode_2586](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2586.playground/Contents.swift) |
+| 2595      |  [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/) | [leetcode_2595](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2595.playground/Contents.swift) |
 
 to be continue
