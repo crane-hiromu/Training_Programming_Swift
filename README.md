@@ -338,4 +338,6 @@ Repository for learning Swift competitive programming
 | 2595      |  [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/) | [leetcode_2595](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2595.playground/Contents.swift) |
 | 2600      |  [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | [leetcode_2600](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2600.playground/Contents.swift) |
 
+| 2605      |  [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays) | [leetcode_2605](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2605.playground/Contents.swift) |
+
 to be continue
