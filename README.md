@@ -342,5 +342,6 @@ Repository for learning Swift competitive programming
 | 2600      |  [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | [leetcode_2600](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2600.playground/Contents.swift) |
 | 2605      |  [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays) | [leetcode_2605](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2605.playground/Contents.swift) |
 | 2609      |  [Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string) | [leetcode_2609](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2609.playground/Contents.swift) |
+| 2610      |  [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | [leetcode_2610](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2610.playground/Contents.swift) |
 
 to be continue
