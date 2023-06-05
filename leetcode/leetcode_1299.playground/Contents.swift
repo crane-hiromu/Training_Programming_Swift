@@ -57,3 +57,20 @@ func replaceElements3(_ arr: [Int]) -> [Int] {
     }
     return result
 }
+
+class Solution {
+    func replaceElements(_ arr: [Int]) -> [Int] {
+        var new = [Int]()
+
+        for i in 0..<arr.count where i+1 < arr.count {
+            var maximum = -1
+
+            for num in arr[i+1...arr.count-1] where maximum < num {
+                maximum = num
+            }
+            new.append(maximum)
+        }
+        new.append(-1)
+        return new
+    }
+}
