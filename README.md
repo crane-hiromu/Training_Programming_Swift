@@ -375,5 +375,6 @@ Repository for learning Swift competitive programming
 | 2610      |  [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | [leetcode_2610](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2610.playground/Contents.swift) |
 | 2652      |  [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | [leetcode_2652](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2652.playground/Contents.swift) |
 | 2656      |  [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | [leetcode_2656](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2656.playground/Contents.swift) |
+| 2703      |  [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | [leetcode_2703](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2703.playground/Contents.swift) |
 
 to be continue
