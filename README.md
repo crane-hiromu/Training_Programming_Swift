@@ -2,7 +2,9 @@
 
 ## Description
 
-Repository for learning Swift competitive programming
+Repository for learning `Swift` competitive programming.
+
+(Some are `Javascript`)
 
 ## Content
 
