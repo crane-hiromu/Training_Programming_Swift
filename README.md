@@ -388,6 +388,7 @@ Repository for learning Swift competitive programming
 | 2667      |  [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | [leetcode_2667](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2667.playground/Contents.swift) |
 | 2695      |  [Array Wrapper](https://leetcode.com/problems/array-wrapper/) | [leetcode_2695](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2695.playground/Contents.swift) |
 | 2703      |  [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | [leetcode_2703](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2703.playground/Contents.swift) |
+| 2710      |  [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/) | [leetcode_2710](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2710.playground/Contents.swift) |
 | 2733      |  [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | [leetcode_2733](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2733.playground/Contents.swift) |
 | 2769      |  [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | [leetcode_2769](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2769.playground/Contents.swift) |
 
