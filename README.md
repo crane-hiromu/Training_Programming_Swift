@@ -394,6 +394,7 @@ Repository for learning `Swift` competitive programming.
 | 2733      |  [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | [leetcode_2733](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2733.playground/Contents.swift) |
 | 2769      |  [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | [leetcode_2769](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2769.playground/Contents.swift) |
 
-| 2923      |  [Find the Maximum Achievable Number](https://leetcode.com/problems/find-champion-i/) | [leetcode_2923](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2923.playground/Contents.swift) |
+| 2913      |  [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/) | [leetcode_2913](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2913.playground/Contents.swift) |
+| 2923      |  [Find Champion I](https://leetcode.com/problems/find-champion-i/) | [leetcode_2923](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2923.playground/Contents.swift) |
 
 to be continue
