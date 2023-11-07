@@ -413,6 +413,7 @@ Repository for learning `Swift` competitive programming.
 | 2903      |  [Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/) | [leetcode_2903](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2903.playground/Contents.swift) |
 | 2908      |  [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/) | [leetcode_2910](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2910.playground/Contents.swift) |
 | 2913      |  [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/) | [leetcode_2913](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2913.playground/Contents.swift) |
+| 2917      |  [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) | [leetcode_2917](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2917.playground/Contents.swift) |
 | 2923      |  [Find Champion I](https://leetcode.com/problems/find-champion-i/) | [leetcode_2923](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2923.playground/Contents.swift) |
 
 to be continue
