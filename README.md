@@ -416,6 +416,7 @@ Repository for learning `Swift` competitive programming.
 | 2913      |  [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/) | [leetcode_2913](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2913.playground/Contents.swift) |
 | 2917      |  [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) | [leetcode_2917](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2917.playground/Contents.swift) |
 | 2923      |  [Find Champion I](https://leetcode.com/problems/find-champion-i/) | [leetcode_2923](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2923.playground/Contents.swift) |
+| 2928      |  [Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/) | [leetcode_2928](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2928.playground/Contents.swift) |
 | 2932      |  [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | [leetcode_2932](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2932.playground/Contents.swift) |
 | 2937      |  [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | [leetcode_2937](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2937.playground/Contents.swift) |
 
