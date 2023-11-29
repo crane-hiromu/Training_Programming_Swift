@@ -419,6 +419,6 @@ Repository for learning `Swift` competitive programming.
 | 2928      |  [Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/) | [leetcode_2928](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2928.playground/Contents.swift) |
 | 2932      |  [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | [leetcode_2932](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2932.playground/Contents.swift) |
 | 2937      |  [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | [leetcode_2937](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2937.playground/Contents.swift) |
-
+| 2942      |  [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | [leetcode_2942](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2942.playground/Contents.swift) |
 
 to be continue
