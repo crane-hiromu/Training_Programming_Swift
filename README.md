@@ -422,6 +422,7 @@ Repository for learning `Swift` competitive programming.
 | 2937      |  [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | [leetcode_2937](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2937.playground/Contents.swift) |
 | 2942      |  [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | [leetcode_2942](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2942.playground/Contents.swift) |
 | 2951      |  [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | [leetcode_2951](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2951.playground/Contents.swift) |
+| 2960      |  [Find the Peaks](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | [leetcode_2960](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2960.playground/Contents.swift) |
 
 
 to be continue
