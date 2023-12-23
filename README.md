@@ -411,6 +411,7 @@ Repository for learning `Swift` competitive programming.
 | 2869      |  [Minimum Operations to Collect Elements](https://leetcode.com/problems/minimum-operations-to-collect-elements/) | [leetcode_2869](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2869.playground/Contents.swift) |
 | 2873      |  [Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/) | [leetcode_2873](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2873.playground/Contents.swift) |
 | 2898      |  [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | [leetcode_2898](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2898.playground/Contents.swift) |
+| 2899      |  [Last Visited Integers](https://leetcode.com/problems/last-visited-integers/) | [leetcode_2899](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2899.playground/Contents.swift) |
 | 2903      |  [Find Indices With Index and Value Difference I](https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/) | [leetcode_2903](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2903.playground/Contents.swift) |
 | 2908      |  [Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/) | [leetcode_2910](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2910.playground/Contents.swift) |
 | 2913      |  [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/) | [leetcode_2913](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2913.playground/Contents.swift) |
@@ -419,7 +420,10 @@ Repository for learning `Swift` competitive programming.
 | 2928      |  [Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/) | [leetcode_2928](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2928.playground/Contents.swift) |
 | 2932      |  [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | [leetcode_2932](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2932.playground/Contents.swift) |
 | 2937      |  [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | [leetcode_2937](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2937.playground/Contents.swift) |
+| 2942      |  [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | [leetcode_2942](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2942.playground/Contents.swift) |
+| 2951      |  [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | [leetcode_2951](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2951.playground/Contents.swift) |
 | 2956      |  [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-missing-and-repeated-values/) | [leetcode_2956](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2956.playground/Contents.swift) |
+| 2960      |  [Find the Peaks](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | [leetcode_2960](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2960.playground/Contents.swift) |
 
 
 to be continue
