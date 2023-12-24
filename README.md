@@ -424,6 +424,6 @@ Repository for learning `Swift` competitive programming.
 | 2951      |  [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | [leetcode_2951](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2951.playground/Contents.swift) |
 | 2956      |  [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-missing-and-repeated-values/) | [leetcode_2956](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2956.playground/Contents.swift) |
 | 2960      |  [Find the Peaks](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | [leetcode_2960](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2960.playground/Contents.swift) |
-
+| 2974      |  [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | [leetcode_2974](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2974.playground/Contents.swift) |
 
 to be continue
