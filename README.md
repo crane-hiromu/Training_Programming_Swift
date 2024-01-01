@@ -1,4 +1,4 @@
-# Solve Leetcode Problems
+   # Solve Leetcode Problems
 
 ## Description
 
@@ -426,5 +426,7 @@ Repository for learning `Swift` competitive programming.
 | 2960      |  [Find the Peaks](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | [leetcode_2960](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2960.playground/Contents.swift) |
 | 2965      |  [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | [leetcode_2965](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2965.playground/Contents.swift) |
 | 2974      |  [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | [leetcode_2974](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2974.playground/Contents.swift) |
+| 2980      |  [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | [leetcode_2980](https://github.com/crane-hiromu/Training_Programming_Swift/blob/master/leetcode/leetcode_2980.playground/Contents.swift) |
+
 
 to be continue
